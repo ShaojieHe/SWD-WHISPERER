@@ -8,7 +8,7 @@
         "copper_text_size_h": 0.7,
         "copper_text_size_v": 0.7,
         "copper_text_thickness": 0.3,
-        "copper_text_upright": false,
+        "copper_text_upright": true,
         "courtyard_line_width": 0.049999999999999996,
         "dimension_precision": 4,
         "dimension_units": 3,
@@ -42,10 +42,10 @@
         "silk_text_size_h": 0.7,
         "silk_text_size_v": 0.7,
         "silk_text_thickness": 0.15,
-        "silk_text_upright": false,
+        "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -144,12 +144,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.48,
-          "drill": 0.25
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
-          "diameter": 0.61,
-          "drill": 0.305
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -389,8 +389,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
