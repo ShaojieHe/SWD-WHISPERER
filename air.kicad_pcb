@@ -6,8 +6,10 @@
 
   (paper "A4")
   (title_block
-    (date "2022-08-15")
-    (rev "1.1")
+    (title "SWD WHISPERER")
+    (date "2023-02-06")
+    (rev "1.6")
+    (company "[REDACTED]")
   )
 
   (layers
@@ -3143,11 +3145,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiPiIsICJDYXBSaWdodENob2ljZSI6ICI+IiwgIkZvbnRDb21ib0JveCI6ICJBZ2VuY3lGQi1Cb2xkIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJSZXYgMS42IiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjMiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjMiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICIzIiwgIlBhZGRpbmdUb3BDdHJsIjogIjMiLCAiV2lkdGhDdHJsIjogIjEifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-63A8965B" (at 0 -3.853656) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 55a270d1-2be6-45f4-bb86-f162548ee546)
     )
     (fp_text value "G***" (at 0 3.853656) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 9f887d21-60b1-482a-ac2f-7fc59366db67)
     )
     (fp_poly (pts
@@ -8271,6 +8273,7 @@
   (via (at 50.165 60.071) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2) (tstamp 0c78ede9-86bc-4542-bbfd-e64208f4a17e))
   (via (at 37.621 65.295) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2) (tstamp 29492c43-2c65-4a9b-8ddd-1e1f880e7d49))
   (via (at 30.226 50.038) (size 0.61) (drill 0.305) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 301bc254-c537-4f7d-86a4-fb038cb437dd))
+  (via (at 33.82 62.24) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 3fc1c1c4-256f-4586-a7e1-c7600682f309))
   (via (at 58.928 60.706) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2) (tstamp 4d54f5f4-2925-45b4-868c-839f4f7f2bb1))
   (via (at 57.47 54.56) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 4d8b94d0-6241-4bbd-b4dc-6853a6153df9))
   (via (at 60.071 54.356) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 5cf07b5d-fe5d-4a23-9f9b-7f336fe9bec9))
@@ -8278,6 +8281,7 @@
   (via (at 60.706 57.531) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 63a55739-7c3d-4ce2-b828-ca0586e57829))
   (via (at 29.464 50.038) (size 0.61) (drill 0.305) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 7968c647-d5a1-4870-8ca4-03ce057b1cbd))
   (via (at 31.75 50.038) (size 0.61) (drill 0.305) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 7da8e898-53a3-4c32-a1c6-7eb05b60d09c))
+  (via (at 33.68 54.58) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 7f7c69ee-8ed1-426d-b554-57a4e26f1203))
   (via (at 60.071 57.531) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 835d8e00-73c3-4f61-8b56-c0919ecadc19))
   (via (at 57.61 65.2) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2) (tstamp 850b78bd-eb7e-4697-88d4-7d1084583f2c))
   (via (at 54.864 60.706) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 2) (tstamp 8d6a3145-5ec7-4158-a7ee-a0231de32935))
@@ -19846,11 +19850,12 @@
       (layer "F.Cu")
       (pts
         (xy 33.781513 57.797068)
-        (xy 33.81361 57.808199)
-        (xy 33.83916 57.81706)
+        (xy 33.818622 57.809937)
         (xy 33.839161 57.81706)
+        (xy 33.839162 57.81706)
         (xy 33.92939 57.848351)
-        (xy 33.931365 57.849036)
+        (xy 33.92939 57.848352)
+        (xy 33.931365 57.849037)
         (xy 34.123521 57.915676)
         (xy 34.130214 57.921624)
         (xy 34.131381 57.926351)
@@ -44523,8 +44528,6 @@
         (xy 31.890113 60.342355)
         (xy 31.881162 60.342541)
         (xy 31.877305 60.340075)
-        (xy 31.691285 60.161188)
-        (xy 31.691284 60.161188)
         (xy 31.5975 60.071)
         (xy 31.882946 59.7965)
       )
