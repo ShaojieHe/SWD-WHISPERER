@@ -1,6 +1,3 @@
-# Notice
-This Repo **MAY CONTAIN** unlicensed font, USE WITH **CAUTION**
-
 # SWD-WHISPERER
 Custom DAPLink Hardware Design using AIR32F103Cx, This Version of hardware support SWD, JTAG, USB CDC, **ITM Trace/SWO**
 
