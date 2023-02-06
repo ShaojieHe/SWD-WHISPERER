@@ -2,7 +2,9 @@
 This Repo **MAY CONTAIN** unlicensed font, USE WITH **CAUTION**
 
 # SWD-WHISPERER
-Custom DAPLink Hardware Design using AIR32F103Cx
+Custom DAPLink Hardware Design using AIR32F103Cx, This Version of hardware support SWD, JTAG, USB CDC, **ITM Trace/SWO**
+
+Also this repo contain an [addon project](https://github.com/ShaojieHe/SWD-WHISPERER/tree/3225_crystal/standardJTAG_ADAPTER) to convert custom pinout to standard JTAG pinout for better debugging experience.
 
 Licenced under CERN OHL v2 Permissive
 
@@ -20,6 +22,10 @@ Licenced under CERN OHL v2 Permissive
 ![AIR_FRONT](https://github.com/ShaojieHe/SWD-WHISPERER/blob/3225_crystal/DAPLink/air_front.png)
 
 ![AIR_BACK](https://github.com/ShaojieHe/SWD-WHISPERER/blob/3225_crystal/DAPLink/air_back.png)
+
+![Conv_Front](https://github.com/ShaojieHe/SWD-WHISPERER/blob/3225_crystal/standardJTAG_ADAPTER/header_toStdJTAG_front.png)
+
+![Conv_Back](https://github.com/ShaojieHe/SWD-WHISPERER/blob/3225_crystal/standardJTAG_ADAPTER/header_toStdJTAG_back.png)
 
 ## How to Modify
 
