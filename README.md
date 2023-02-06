@@ -12,6 +12,9 @@ Licenced under CERN OHL v2 Permissive
 
 [AIR32F10x Pre-Release](https://github.com/ShaojieHe/DAPLink-Extra/releases/tag/air32-pre-release)
 
+## PCB Schematic
+[Schematic](https://github.com/ShaojieHe/SWD-WHISPERER/blob/3225_crystal/air.pdf)
+
 ## PCB 3D Image
 
 ![AIR_FRONT](https://github.com/ShaojieHe/SWD-WHISPERER/blob/3225_crystal/air_front.png)
